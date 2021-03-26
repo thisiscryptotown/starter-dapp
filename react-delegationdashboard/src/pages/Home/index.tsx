@@ -35,9 +35,6 @@ const Home = () => {
               </p>
               <p className="mb-spacer">Please select your login method:</p>
               <div>
-                <a href="/ledger" className="btn btn-primary px-sm-spacer mx-1 mx-sm-3">
-                  Ledger
-                </a>
                 <WalletLogin />
               </div>
             </div>
